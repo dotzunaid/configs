@@ -90,11 +90,11 @@ require("lazy").setup({
         "nvim-treesitter/nvim-treesitter-textobjects"
     },
     {
-        "neovim/nvim-lspconfig",
-        vim.lsp.enable({ "clangd", "pyright", "gopls", "rust-analyzer", "lua-language-server" })
-    },
-    {
-        "mason-org/mason.nvim",
-        opts = {}
+        "mason-org/mason-lspconfig.nvim",
+        opts = {},
+        dependencies = {
+            { "mason-org/mason.nvim", opts = {} },
+            "neovim/nvim-lspconfig"
+        }
     },
 })

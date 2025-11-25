@@ -9,11 +9,10 @@ vim.opt.splitright = true
 vim.opt.tabstop = 4
 -- vim.opt.softtabstop = 4
 vim.opt.shiftwidth = 4
-vim.opt.expandtab = true 
+vim.opt.expandtab = true
 
 
 vim.opt.clipboard = "unnamedplus"
-        
 vim.opt.scrolloff = 999
 
 vim.opt.virtualedit = "block"
@@ -24,6 +23,3 @@ vim.opt.termguicolors = true
 
 vim.g.mapleader = " "
 
-vim.diagnostic.config({
-    virtual_lines = true
-})

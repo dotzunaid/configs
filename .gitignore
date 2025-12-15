@@ -6,4 +6,10 @@
 !/yazi/
 !/wezterm/
 !/lazygit/
+
+
 !/tmux/
+/tmux/plugins
+!/tmux/plugins/tpm/
+
+

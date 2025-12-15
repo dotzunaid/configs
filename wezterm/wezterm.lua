@@ -22,6 +22,9 @@ config.colors = {
     }
 }
 
+-- hide tab bar
+config.hide_tab_bar_if_only_one_tab = true
+
 -- disable bell
 config.audible_bell = "Disabled"
 

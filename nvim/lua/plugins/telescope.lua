@@ -10,5 +10,7 @@ return {
        vim.keymap.set("n", "<leader>fa", function()
            builtin.find_files({ no_ignore = true, hidden = true })
        end, { desc = "Find files including gitignored and hidden" })
+       vim.keymap.set("n", "<leader>fk", builtin.keymaps, { desc = 'Telescope keymaps' })
+       vim.keymap.set("n", "<leader>fs", builtin.lsp_document_symbols, { desc = 'Telescope symbols' })
    end,
 }

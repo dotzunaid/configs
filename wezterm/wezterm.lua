@@ -20,13 +20,14 @@ if config.color_scheme == 'Catppuccin Macchiato' then
     }
 end
 
+config.max_fps = 165 
+
 -- window settings 
 config.window_decorations = "RESIZE"
 
 -- tab settings
 config.use_fancy_tab_bar = false 
 config.adjust_window_size_when_changing_font_size = false
-
 
 
 -- disable bell
@@ -50,8 +51,8 @@ if wezterm.target_triple == MACOS then
     -- hide tab bar
     config.hide_tab_bar_if_only_one_tab = true
     config.font_size = 20 
-    config.window_background_opacity = 0.9
-    config.macos_window_background_blur = 30
+    -- config.window_background_opacity = 0.9
+    -- config.macos_window_background_blur = 30
     config.font = wezterm.font 'SF Mono'
 end
 
